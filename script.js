@@ -31,7 +31,7 @@ function createQRCode() {
   }
 }
 
-textInput.addEventListener("keyup", (e) => {
+textInput.addEventListener("keyup", () => {
   if (!textInput.value.trim()) {
     wrapper.classList.remove("active");
   }
